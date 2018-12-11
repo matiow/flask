@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% for animal in animals %}
+<p>{{animal}} jest fajny</p>
+{% endfor %}
+{% extends "base.html" %}
+{% block title %}Galeria{% endblock %}
+{% block content %}
+<div class="cointiner">
+    <div id="CarouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
