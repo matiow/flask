@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block skrypty %}
+<script src="{{url_for('static', filename='./jsScripts/alexa.js')}}"></script>
+{% endblock %}
+
+{% block content %}
+<input type="button" value="Uwolnij mnie!">
+{% endblock %}
